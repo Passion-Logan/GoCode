@@ -319,6 +319,106 @@ func swap(a, b *int) {
 	*b = t
 }
 
+func dummy(b int) int {
+	// 声明一个变量c并赋值
+	var c int
+	c = b
+	return c
+}
+
+// 空函数, 什么也不做
+func void() {
+	// go run -gcflags "-m -l" ***.go
+}
+
+/**
+-- 生命周期
+全局变量：它的生命周期和整个程序的运行周期是一致的；
+局部变量：它的生命周期则是动态的，从创建这个变量的声明语句开始，到这个变量不再被引用为止；
+形式参数和函数返回值：它们都属于局部变量，在函数被调用的时候创建，函数调用结束后被销毁。
+*/
+func Lifecycle() {
+}
+
+/**
+-- 常量
+常量使用关键字 const 定义，用于存储不会改变的数据，常量是在编译时被创建的，即使定义在函数内部也是如此，
+并且只能是布尔型、数字型（整数型、浮点型和复数）和字符串型。
+由于编译时的限制，定义常量的表达式必须为能被编译器求值的常量表达式。
+*/
+func Constant() {
+	// 显式类型定义 const b string = "abc"
+	// 隐式类型定义： const b = "abc"
+	// 常量的值必须是能够在编译时就能够确定的，可以在其赋值表达式中涉及计算过程，但是所有用于计算的值必须在编译期间就能获得。
+	// 正确的做法：const c1 = 2/3
+	// 错误的做法：const c2 = getNumber() // 引发构建错误: getNumber() 用做值
+	/**
+	const (
+	    e  = 2.7182818
+	    pi = 3.1415926
+	)
+	*/
+
+	// iota 常量生成器
+	type Weekday int
+	const (
+		Sunday Weekday = iota
+		Monday
+		Tuesday
+		Wednesday
+		Thursday
+		Friday
+		Saturday
+	)
+	// 首先定义一个 Weekday 命名类型，然后为一周的每天定义了一个常量，从周日 0 开始。在其它编程语言中，这种类型一般被称为枚举类型。
+	// 周日将对应 0，周一为 1，以此类推。
+}
+
+/**
+-- 类型别名使用type关键字
+Go 1.9 版本之前定义内建类型的代码是这样写的
+type byte uint8
+type rune int32
+而在 Go 1.9 版本之后变为：
+type byte = uint8
+type rune = int32
+*/
+func Typealias() {
+	// 区分类型别名与类型定义
+	/**
+	定义类型别名的写法为：
+	type TypeAlias = Type
+	类型别名规定：TypeAlias 只是 Type 的别名，本质上 TypeAlias 与 Type 是同一个类型，就像一个孩子小时候有小名、乳名，上学后用学名，英语老师又会给他起英文名，但这些名字都指的是他本人。
+	*/
+	// 将NewInt定义为int类型
+	type NewInt int
+	// 将int取一个别名叫IntAlias
+	type IntAlias = int
+
+	// 将a声明为NewInt类型
+	var a NewInt
+	// 查看a的类型名
+	fmt.Printf("a type: %T\n", a)
+	// 将a2声明为IntAlias类型
+	var a2 IntAlias
+	// 查看a2的类型名
+	fmt.Printf("a2 type: %T\n", a2)
+
+	// 非本地类型不能定义方法
+	/**
+	// 定义time.Duration的别名为MyDuration
+	type MyDuration = time.Duration
+	// 为MyDuration添加一个函数
+	func (m MyDuration) EasySet(a string) {
+	}
+	编译上面代码报错，信息如下：
+	cannot define new methods on non-local type time.Duration
+	解决这个问题有下面两种方法：
+	1 将第 8 行修改为 type MyDuration time.Duration，也就是将 MyDuration 从别名改为类型；
+	2 将 MyDuration 的别名定义放在 time 包中。
+	*/
+}
+
 func main() {
-	Pointer()
+	Typealias()
 }
