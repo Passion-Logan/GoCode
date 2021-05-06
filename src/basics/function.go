@@ -1,6 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+	"runtime"
+	"time"
+)
 
 /*
 返回值一般用return返回
@@ -131,6 +136,103 @@ func fibonacci(n int) (res int) {
 	return
 }
 
+/*
+函数可以作为其它函数的参数进行传递，然后在其它函数内调用执行，一般称之为回调。下面是一个将函数作为参数的简单例子（function_parameter.go）：
+
 func main() {
-	递归函数()
+	callback(1, Add)
+}
+
+func Add(a, b int) {
+	fmt.Printf("The sum of %d and %d is: %d\n", a, b, a+b)
+}
+
+func callback(y int, f func(int, int)) {
+	f(y, 2) // this becomes Add(1, 2)
+}
+输出：
+
+The sum of 1 and 2 is: 3
+
+*/
+func 将函数作为参数() {
+
+}
+
+/*
+当您在分析和调试复杂的程序时，无数个函数在不同的代码文件中相互调用，如果这时候能够准确地知道哪个文件中的具体哪个函数正在执行，对于调试是十分有帮助的。
+您可以使用 runtime 或 log 包中的特殊函数来实现这样的功能。
+包 runtime 中的函数 Caller() 提供了相应的信息，
+因此可以在需要的时候实现一个 where() 闭包函数来打印函数执行的位置：
+*/
+func 使用闭包调试() {
+	where := func() {
+		_, file, line, _ := runtime.Caller(1)
+		log.Printf("%s:%d", file, line)
+	}
+	where()
+	// some code
+	where()
+	// some more code
+	where()
+
+	/*
+		2021/05/06 18:11:56 D:/Code/GoCode/src/basics/function.go:169
+		2021/05/06 18:11:56 D:/Code/GoCode/src/basics/function.go:171
+		2021/05/06 18:11:56 D:/Code/GoCode/src/basics/function.go:173
+	*/
+
+	//log.SetFlags(log.Llongfile)
+	//log.Print("")
+}
+
+/*
+有时候，能够知道一个计算执行消耗的时间是非常有意义的，尤其是在对比和基准测试中。最简单的一个办法就是在计算开始之前设置一个起始时候，
+再由计算结束时的结束时间，最后取出它们的差值，就是这个计算所消耗的时间。
+想要实现这样的做法，可以使用 time 包中的 Now() 和 Sub 函数：
+*/
+func 计算函数执行时间() {
+	start := time.Now()
+	time.Sleep(time.Second)
+	end := time.Now()
+	delta := end.Sub(start)
+	fmt.Printf("longCalculation took this amount of time: %s\n", delta)
+}
+
+/*
+
+ */
+func 通过内存缓存来提升性能() {
+	var result uint64 = 0
+	start := time.Now()
+	for i := 0; i < LIM; i++ {
+		result = fibonacci2(i)
+		fmt.Printf("fibonacci(%d) is: %d\n", i, result)
+	}
+	end := time.Now()
+	delta := end.Sub(start)
+	fmt.Printf("longCalculation took this amount of time: %s\n", delta)
+}
+
+const LIM = 41
+
+var fibs [LIM]uint64
+
+func fibonacci2(n int) (res uint64) {
+	// memoization: check if fibonacci(n) is already known in array:
+	if fibs[n] != 0 {
+		res = fibs[n]
+		return
+	}
+	if n <= 1 {
+		res = 1
+	} else {
+		res = fibonacci2(n-1) + fibonacci2(n-2)
+	}
+	fibs[n] = res
+	return
+}
+
+func main() {
+	通过内存缓存来提升性能()
 }
