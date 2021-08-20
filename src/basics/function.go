@@ -199,9 +199,6 @@ func 计算函数执行时间() {
 	fmt.Printf("longCalculation took this amount of time: %s\n", delta)
 }
 
-/*
-
- */
 func 通过内存缓存来提升性能() {
 	var result uint64 = 0
 	start := time.Now()
