@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="745d31be-acdb-481c-98e8-803b65a404f0" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/basics/dowrite.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/dowrite.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/dowrite.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,19 +84,19 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build function.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoCode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/basics/function.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/basics/interface.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build package.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoCode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/basics/package.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -115,12 +116,19 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build dowrite.go" />
+      <item itemvalue="Go Build.go build interface.go" />
+      <item itemvalue="Go Build.go build struct.go" />
+      <item itemvalue="Go Build.go build test.go" />
+      <item itemvalue="Go Build.go build function.go" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build dowrite.go" />
+        <item itemvalue="Go Build.go build function.go" />
         <item itemvalue="Go Build.go build interface.go" />
         <item itemvalue="Go Build.go build struct.go" />
-        <item itemvalue="Go Build.go build package.go" />
         <item itemvalue="Go Build.go build test.go" />
       </list>
     </recent_temporary>
@@ -148,69 +156,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="752" y="178" key="#GOPATH" timestamp="1619768837008">
+    <state x="414" y="175" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629425862854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="178" key="#GOPATH/0.0.1920.1040@0.0.1920.1040" timestamp="1619768837008" />
-    <state x="414" y="175" width="1092" height="759" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619507410853">
+    <state x="414" y="175" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629425862854" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1629425581065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="759" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619507410853" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1619507396961">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629425581065" />
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1629444084230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619507396961" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1620468313044">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629444084230" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1629444084230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620468313044" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1620468313044">
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629444084230" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1629444084230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620468313044" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1620468313044">
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629444084230" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1629444084230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620468313044" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1620468313044">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620468313044" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1619776845991">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619776845991" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1619776845991">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619776845991" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1619776845991">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619776845991" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1619776845991">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619776845991" />
-    <state x="782" y="221" key="RollbackChangesDialog" timestamp="1620288728821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="782" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620288728821" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1619512752868">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619512752868" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1620381472213">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1620381472213" />
-    <state x="769" y="414" key="git4idea.ui.GitResetDialog" timestamp="1619507154804">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="414" key="git4idea.ui.GitResetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619507154804" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1620295961552">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1620295961552" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629444084230" />
   </component>
 </project>

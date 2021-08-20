@@ -1,13 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
 
 var (
 	firstName, lastName, s string
-	i int
-	f float32
-	input = "56.12 / 5212 / Go"
-	format = "%f / %d / %s"
+	i                      int
+	f                      float32
+	input                  = "56.12 / 5212 / Go"
+	format                 = "%f / %d / %s"
 )
 
 func 读取用户的输入() {
@@ -20,6 +24,15 @@ func 读取用户的输入() {
 	// 输出结果: From the string we read: 56.12 5212 Go
 }
 
+func 缓冲读取() {
+	inputReader := bufio.NewReader(os.Stdin)
+	fmt.Println("Please enter some input: ")
+	input, err := inputReader.ReadString('\n')
+	if err == nil {
+		fmt.Printf("The input was: %s\n", input)
+	}
+}
+
 func main() {
-	读取用户的输入()
+	缓冲读取()
 }
