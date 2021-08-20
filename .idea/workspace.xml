@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -22,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="745d31be-acdb-481c-98e8-803b65a404f0" name="Default Changelist" comment="update">
+    <list default="true" id="8738f4f7-ac8f-4cc2-8025-a8831a134578" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/copy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basics/dowrite.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/dowrite.go" afterDir="false" />
     </list>
@@ -31,37 +32,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Go File" />
-      </list>
-    </option>
-  </component>
   <component name="GOROOT" path="D:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1rk3P2PqN0dMlqgzX2aBOriqCLD" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1wyxHFFNZLZQBoIsHWF3ogtNHAe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
-    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,11 +56,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\GoCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build dowrite.go">
+  <component name="RunManager">
     <configuration name="go build dowrite.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoCode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -84,52 +69,9 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build function.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoCode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/basics/function.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoCode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/basics/interface.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoCode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/basics/struct.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoCode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/basics/test.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Go Build.go build dowrite.go" />
-      <item itemvalue="Go Build.go build function.go" />
-      <item itemvalue="Go Build.go build interface.go" />
-      <item itemvalue="Go Build.go build struct.go" />
-      <item itemvalue="Go Build.go build test.go" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build dowrite.go" />
-        <item itemvalue="Go Build.go build function.go" />
-        <item itemvalue="Go Build.go build interface.go" />
-        <item itemvalue="Go Build.go build struct.go" />
-        <item itemvalue="Go Build.go build test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -147,38 +89,31 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="init" />
-    <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629425862854">
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1629448677861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629425862854" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1629425581065">
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629448677861" />
+    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1629448677861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629425581065" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1629444084230">
+    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629448677861" />
+    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1629448677861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629444084230" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1629444084230">
+    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629448677861" />
+    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1629448677861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629444084230" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1629444084230">
+    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629448677861" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1629448244874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629444084230" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1629444084230">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1629448244874" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1629444824493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629444084230" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629444824493" />
   </component>
 </project>
