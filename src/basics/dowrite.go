@@ -3,11 +3,13 @@ package main
 import (
 	"bufio"
 	"compress/gzip"
+	"flag"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
 var (
@@ -134,6 +136,89 @@ func 读取压缩文件() {
 
 }
 
+func 文件拷贝() {
+	src, err := os.Open("./src/copy1.txt")
+	if err != nil {
+		return
+	}
+	defer src.Close()
+	dst, err := os.Create("./src/copy2.txt")
+	if err != nil {
+		return
+	}
+	defer dst.Close()
+	io.Copy(dst, src)
+}
+
+func 从命令行读取参数() {
+	who := "wdd"
+	if len(os.Args) > 1 {
+		who += strings.Join(os.Args[1:], " ")
+	}
+	fmt.Println("早上好,", who)
+}
+
+func cat(r *bufio.Reader) {
+	for {
+		buf, err := r.ReadBytes('\n')
+		fmt.Fprintf(os.Stdout, "%s", buf)
+		if err == io.EOF {
+			break
+		}
+		return
+	}
+}
+
+func 用buffer读取文件() {
+	flag.Parse()
+	if flag.NArg() == 0 {
+		cat(bufio.NewReader(os.Stdin))
+	}
+	for i := 0; i < flag.NArg(); i++ {
+		f, err := os.Open(flag.Arg(i))
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "%s:读取文件错误: %s : %s \n", os.Args[0], flag.Arg(i), err.Error())
+			continue
+		}
+		cat(bufio.NewReader(f))
+		f.Close()
+	}
+}
+
+func cat2(f *os.File) {
+	const NBUF = 512
+	var buf [NBUF]byte
+	for {
+		switch nr, err := f.Read(buf[:]); true {
+		case nr < 0:
+			fmt.Fprintf(os.Stderr, "cat: error reading: %s\n", err.Error())
+			os.Exit(1)
+		case nr == 0: // EOF
+			return
+		case nr > 0:
+			if nw, ew := os.Stdout.Write(buf[0:nr]); nw != nr {
+				fmt.Fprintf(os.Stderr, "cat: error writing: %s\n", ew.Error())
+			}
+		}
+	}
+}
+
+func 用切片读写文件() {
+	flag.Parse() // Scans the arg list and sets up flags
+	if flag.NArg() == 0 {
+		cat2(os.Stdin)
+	}
+	for i := 0; i < flag.NArg(); i++ {
+		f, err := os.Open(flag.Arg(i))
+		if f == nil {
+			fmt.Fprintf(os.Stderr, "cat: can't open %s: error %s\n", flag.Arg(i), err)
+			os.Exit(1)
+		}
+		cat2(f)
+		f.Close()
+	}
+}
+
 func main() {
-	读取压缩文件()
+	用buffer读取文件()
 }
