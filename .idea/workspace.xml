@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8738f4f7-ac8f-4cc2-8025-a8831a134578" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/basics/json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/copy1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/copy2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vcard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/error.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/dowrite.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/dowrite.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +65,20 @@
       <recent name="D:\Code\GoCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build json.go">
+  <component name="RunManager" selected="Go Build.go build error.go">
     <configuration name="go build dowrite.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/basics/dowrite.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build error.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoCode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/basics/error.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -88,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build error.go" />
         <item itemvalue="Go Build.go build json.go" />
         <item itemvalue="Go Build.go build dowrite.go" />
       </list>
@@ -114,22 +119,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1629710318137">
+    <state width="1877" height="193" key="GridCell.Tab.0.bottom" timestamp="1629712463610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629710318137" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1629710318137">
+    <state width="1877" height="193" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629712463610" />
+    <state width="1877" height="193" key="GridCell.Tab.0.center" timestamp="1629712463609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629710318137" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1629710318137">
+    <state width="1877" height="193" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629712463609" />
+    <state width="1877" height="193" key="GridCell.Tab.0.left" timestamp="1629712463609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629710318137" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1629710318137">
+    <state width="1877" height="193" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629712463609" />
+    <state width="1877" height="193" key="GridCell.Tab.0.right" timestamp="1629712463609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629710318137" />
+    <state width="1877" height="193" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629712463609" />
     <state x="826" y="240" key="RollbackChangesDialog" timestamp="1629691156178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
