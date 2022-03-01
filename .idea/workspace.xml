@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8738f4f7-ac8f-4cc2-8025-a8831a134578" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/basics/goroutine.go" afterDir="false" />
+    <list default="true" id="633603a6-33cc-4004-a8e4-955bda7d2561" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1wyxHFFNZLZQBoIsHWF3ogtNHAe" />
+  <component name="ProjectId" id="1xIbcss0b4p5OivIIFk1fn5QlN0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,59 +50,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\GoCode\src" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Go Build.go build goroutine.go">
-    <configuration name="go build dowrite.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/basics/dowrite.go" />
       <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build error.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoCode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/basics/error.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build goroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoCode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/basics/goroutine.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoCode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/basics/json.go" />
-      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/test/test.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build goroutine.go" />
-        <item itemvalue="Go Build.go build error.go" />
-        <item itemvalue="Go Build.go build json.go" />
-        <item itemvalue="Go Build.go build dowrite.go" />
+        <item itemvalue="Go Build.go build test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -126,43 +91,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1877" height="245" key="GridCell.Tab.0.bottom" timestamp="1629967590807">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629967590807" />
-    <state width="1877" height="245" key="GridCell.Tab.0.center" timestamp="1629967590807">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629967590807" />
-    <state width="1877" height="245" key="GridCell.Tab.0.left" timestamp="1629967590807">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629967590807" />
-    <state width="1877" height="245" key="GridCell.Tab.0.right" timestamp="1629967590807">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629967590807" />
-    <state x="826" y="240" key="RollbackChangesDialog" timestamp="1629691156178">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="826" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629691156178" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1629448244874">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1629448244874" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1629799457613">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1629799457613" />
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1629961934371">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1629961934371" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1629687970313">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629687970313" />
   </component>
 </project>
