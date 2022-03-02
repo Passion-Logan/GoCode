@@ -23,10 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="633603a6-33cc-4004-a8e4-955bda7d2561" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/demo/2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/10.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/11.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/8.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/9.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/1.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/1.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,45 +72,54 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
-  <component name="RunManager" selected="Go Build.go build 3.go">
-    <configuration name="go build 1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 11.go">
+    <configuration name="go build 10.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/demo/1.go" />
+      <filePath value="$PROJECT_DIR$/src/demo/10.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 11.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/demo/2.go" />
+      <filePath value="$PROJECT_DIR$/src/demo/11.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 6.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/demo/3.go" />
+      <filePath value="$PROJECT_DIR$/src/demo/6.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 7.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/test/test.go" />
+      <filePath value="$PROJECT_DIR$/src/demo/7.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 8.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoCode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/demo/8.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 3.go" />
-        <item itemvalue="Go Build.go build 2.go" />
-        <item itemvalue="Go Build.go build 1.go" />
-        <item itemvalue="Go Build.go build test.go" />
+        <item itemvalue="Go Build.go build 11.go" />
+        <item itemvalue="Go Build.go build 10.go" />
+        <item itemvalue="Go Build.go build 8.go" />
+        <item itemvalue="Go Build.go build 7.go" />
+        <item itemvalue="Go Build.go build 6.go" />
       </list>
     </recent_temporary>
   </component>
